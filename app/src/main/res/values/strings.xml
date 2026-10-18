@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Kashmiri Keyboard</string>
+    <string name="ime_name">Kashmiri Perso-Arabic Keyboard</string>
+    <string name="enable_instructions">Kashmiri Keyboard is installed.\n\nEnable it from Android Settings:\n1. Settings → System → Languages &amp; input → On-screen keyboard\n2. Manage keyboards\n3. Turn on Kashmiri Perso-Arabic Keyboard\n4. In any text field, switch input method and select Kashmiri keyboard.</string>
+</resources>
