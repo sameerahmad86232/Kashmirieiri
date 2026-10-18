@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#F2F2F2"
+    android:orientation="vertical"
+    android:padding="6dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button style="@style/KeyboardKey" android:text="ض" />
+        <Button style="@style/KeyboardKey" android:text="ص" />
+        <Button style="@style/KeyboardKey" android:text="ث" />
+        <Button style="@style/KeyboardKey" android:text="ق" />
+        <Button style="@style/KeyboardKey" android:text="ف" />
+        <Button style="@style/KeyboardKey" android:text="غ" />
+        <Button style="@style/KeyboardKey" android:text="ع" />
+        <Button style="@style/KeyboardKey" android:text="ہ" />
+        <Button style="@style/KeyboardKey" android:text="خ" />
+        <Button style="@style/KeyboardKey" android:text="ح" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button style="@style/KeyboardKey" android:text="ش" />
+        <Button style="@style/KeyboardKey" android:text="س" />
+        <Button style="@style/KeyboardKey" android:text="ی" />
+        <Button style="@style/KeyboardKey" android:text="ب" />
+        <Button style="@style/KeyboardKey" android:text="ل" />
+        <Button style="@style/KeyboardKey" android:text="ا" />
+        <Button style="@style/KeyboardKey" android:text="ت" />
+        <Button style="@style/KeyboardKey" android:text="ن" />
+        <Button style="@style/KeyboardKey" android:text="م" />
+        <Button style="@style/KeyboardKey" android:text="ک" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button style="@style/KeyboardKey" android:text="ژ" />
+        <Button style="@style/KeyboardKey" android:text="چ" />
+        <Button style="@style/KeyboardKey" android:text="ج" />
+        <Button style="@style/KeyboardKey" android:text="ٹ" />
+        <Button style="@style/KeyboardKey" android:text="پ" />
+        <Button style="@style/KeyboardKey" android:text="گ" />
+        <Button style="@style/KeyboardKey" android:text="ڑ" />
+        <Button style="@style/KeyboardKey" android:text="ڈ" />
+        <Button style="@style/KeyboardKey" android:text="و" />
+        <Button style="@style/KeyboardKey" android:text="ر" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button style="@style/KeyboardKey" android:text="ز" />
+        <Button style="@style/KeyboardKey" android:text="د" />
+        <Button style="@style/KeyboardKey" android:text="ط" />
+        <Button style="@style/KeyboardKey" android:text="ظ" />
+        <Button style="@style/KeyboardKey" android:text="،" />
+        <Button style="@style/KeyboardKey" android:text="۔" />
+        <Button style="@style/KeyboardKey" android:text="؟" />
+        <Button style="@style/KeyboardKey" android:text="!" />
+        <Button style="@style/KeyboardKey" android:text="٪" />
+        <Button style="@style/KeyboardKey" android:text="ء" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button style="@style/KeyboardKey" android:text="َ" />
+        <Button style="@style/KeyboardKey" android:text="ِ" />
+        <Button style="@style/KeyboardKey" android:text="ُ" />
+        <Button style="@style/KeyboardKey" android:text="ً" />
+        <Button style="@style/KeyboardKey" android:text="ٍ" />
+        <Button style="@style/KeyboardKey" android:text="ٌ" />
+        <Button style="@style/KeyboardKey" android:text="ْ" />
+        <Button style="@style/KeyboardKey" android:text="ّ" />
+        <Button style="@style/KeyboardKey" android:text="ٓ" />
+        <Button style="@style/KeyboardKey" android:text="ٔ" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            style="@style/KeyboardActionKey"
+            android:layout_weight="2"
+            android:tag="KEY_DELETE"
+            android:text="⌫" />
+
+        <Button
+            style="@style/KeyboardActionKey"
+            android:layout_weight="5"
+            android:tag="KEY_SPACE"
+            android:text="اسپیس" />
+
+        <Button
+            style="@style/KeyboardActionKey"
+            android:layout_weight="2"
+            android:tag="KEY_ENTER"
+            android:text="↵" />
+    </LinearLayout>
+
+</LinearLayout>
